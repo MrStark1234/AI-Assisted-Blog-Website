@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AI-Assisted Blog Website
 
-## Getting Started
+## Overview
 
-First, run the development server:
+The **AI-Assisted Blog Website** is a Next.js-powered blog platform that dynamically renders markdown content as blog posts. This project showcases an AI-assisted workflow for building a modern web application with interactive features and structured content.
+
+## Features
+
+- 🚀 **Interactive Home Page** – A visually appealing and responsive landing page.
+- 📝 **Markdown-Based Blogging** – Renders blog posts from markdown files dynamically.
+- 📌 **Dynamic Routing** – Uses Next.js App Router for efficient navigation.
+- 🎨 **ShadCN UI Components** – Leverages ShadCN for a polished user interface.
+- 📖 **Dedicated Blog Page** – Lists and displays all blog posts dynamically.
+- ℹ️ **Interactive About Page** – Provides insights into the project and its development process.
+- 🚨 **404 Error Handling** – Custom error page for missing routes.
+- 🤖 **AI-Assisted Workflow** – Built using "Pieces for Developers" extension to streamline development.
+
+## Tech Stack
+
+- **Next.js** (App Router for dynamic routing and SSR)
+- **React** (Component-based architecture)
+- **Markdown Rendering** (Processing and displaying markdown content)
+- **ShadCN** (UI components for styling)
+- **Tailwind CSS** (For modern and responsive styling)
+- **AI Tools** (Utilized "Pieces for Developers" for an AI-assisted coding workflow)
+
+## Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/your-username/ai-assisted-blog.git
+
+# Navigate into the project directory
+cd ai-assisted-blogpost
+
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. Add new blog posts as markdown files in the `/content` directory.
+2. Run the development server to see the changes live.
+3. Navigate through the interactive home, blog, and about pages.
+4. Handle any missing routes with the built-in 404 page.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Contribution
 
-## Learn More
+Feel free to fork this repository and make improvements. Contributions are always welcome!
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is licensed under the [MIT License](LICENSE).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Made with ❤️ using Next.js, AI, and ShadCN.
